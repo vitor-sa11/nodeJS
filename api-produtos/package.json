@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js .env",
-    "check": "node --check app.js"
+    "start": "node app.js .env 1",
+    "diagnostico": "node app.js",
+    "produto-ausente": "node app.js .env 999",
+    "id-invalido": "node app.js .env abc",
+    "check": "node scripts/check.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
+  "type": "module",
   "private": true
 }
