@@ -1,6 +1,6 @@
 import {mkdir, readFile, rename, rm, writeFile} from 'node:fs/promises';
 import {randomUUID} from 'node:crypto';
-import {basename, dirname, join} from 'nodde:path';
+import {basename, dirname, join} from 'node:path';
 
 export async function lerJson(caminho) {
     let texto;
