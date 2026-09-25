@@ -1,16 +1,23 @@
 [
-    {
-        "id": 1,
-        "nome": "teclado",
-        "preco": 120,
-        "estoque": 4,
-        "categoria": "periféricos"
-    },
-    {
-        "id": 2,
-        "nome": "mouse",
-        "preco": 78,
-        "estoque": 8,
-        "categoria": "periféricos"
-    }
+  {
+    "id": 1,
+    "nome": "teclado",
+    "preco": 120,
+    "estoque": 4,
+    "categoria": "periféricos"
+  },
+  {
+    "id": 2,
+    "nome": "mouse",
+    "preco": 78,
+    "estoque": 8,
+    "categoria": "periféricos"
+  },
+  {
+    "id": 3,
+    "nome": "monitor LED",
+    "preco": 4000,
+    "estoque": 5,
+    "categoria": "video"
+  }
 ]

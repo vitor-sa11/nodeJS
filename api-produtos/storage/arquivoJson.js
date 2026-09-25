@@ -28,8 +28,9 @@ export async function gravarJson(caminho, dados) {
     if (!Array.isArray(dados)) {
         throw new TypeError('os dados gravados devem formar um array');
     }
+    const diretorio = dirname(caminho);
     await mkdir(diretorio, { recursive: true });
-    const temporario = join(diretorio, `.${basename(caminho)}.${randoomUUID().tmp}`);
+    const temporario = join(diretorio, `.${basename(caminho)}.${randomUUID().tmp}`);
     const texto = `${JSON.stringify(dados, null, 2)}\n`;
     try {
         await writeFile(temporario, texto, 'utf8');
